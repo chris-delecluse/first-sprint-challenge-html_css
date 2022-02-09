@@ -1,0 +1,53 @@
+/* HEADER */
+header {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: darkgray;
+}
+
+/* NAV BAR */
+nav {
+    width: 80vw;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #fff;
+}
+
+.navLeft {
+    width: auto;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.navLogo {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    background-color: #FF7235;
+    margin-right: 10px
+}
+
+.navLogo p {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 11px;
+}
+
+.navLinks ul {
+    width: 400px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
