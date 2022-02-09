@@ -3,18 +3,19 @@ header {
     width: 100vw;
     height: 100vh;
 
-    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
 }
 
-/* NAV BAR */
+/* HEADER NAV BAR */
 nav {
-    width: 80vw;
-    margin: 0 auto;
+    width: 70vw;
+    margin: 15px auto 0 auto;
+
+    color: #6C6C71;
 
     display: flex;
     justify-content: space-between;
-
-    background-color: #fff;
 }
 
 .navLeft {
@@ -26,8 +27,8 @@ nav {
 }
 
 .navLogo {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 
     border-radius: 50%;
     background-color: #FF7235;
@@ -36,10 +37,16 @@ nav {
 
 .navLogo p {
     color: #fff;
+    font-size: 14px;
+
+    height: 100%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-20%);
+
     text-align: center;
     text-transform: uppercase;
-
-    padding-top: 11px;
 }
 
 .navLinks ul {
@@ -51,9 +58,75 @@ nav {
     align-items: center;
 }
 
+.navLinks a {
+    color: #6C6C71;
+    text-decoration: none;
+}
+
+.navlinks a:visited {
+    color: inherit;
+}
+
 .navButton {
     background: none;
     color: #FF7235;
     border: 2px solid #FF7235;
     border-radius: 8px;
+}
+
+/* HEADER main content */
+.header-container {
+    width: 70%;
+    max-height: 450px;
+
+    margin: auto auto;
+
+    display: flex;
+}
+
+.headerContent {
+    width: 50%;
+    height: 100%;
+}
+
+.headerContent h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+.headerContent p {
+    margin-bottom: 30px;
+}
+
+.headerLeft {
+    display: flex;
+}
+
+.headerLeft p {
+    padding-left: 10px;
+
+    margin: auto 0;
+}
+
+.headerLeftButton {
+    width: 180px;
+    height: 55px;
+
+    border: none;
+    border-radius: 8px;
+
+    color: #FFF;
+    background-color: #FF7235;
+}
+
+.headerImage {
+    width: 50%;
+    height: 100%;
+
+    background: url(../assets/images/Illustration.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
