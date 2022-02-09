@@ -51,3 +51,9 @@ nav {
     align-items: center;
 }
 
+.navButton {
+    background: none;
+    color: #FF7235;
+    border: 2px solid #FF7235;
+    border-radius: 8px;
+}
