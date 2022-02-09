@@ -130,3 +130,30 @@ nav {
     background-size: contain;
     background-position: right;
 }
+
+.article-1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.article-1-main {
+    width: 100%;
+    height: 85%;
+    background-color: #FF7235;
+}
+
+.article-1-img {
+    padding: 0;
+    width: 1100px;
+    height: 597px;
+
+    position: relative;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-image: url(../assets/images/Image.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
