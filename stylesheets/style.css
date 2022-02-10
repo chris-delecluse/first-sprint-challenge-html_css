@@ -407,7 +407,7 @@ li {
 
 .article-5 {
     width: 100vw;
-    height: 100vh;
+    height: 33vh;
 }
 
 .article-5-content {
@@ -505,4 +505,61 @@ li {
 
     border: none;
     border-radius: 8px;
+}
+
+hr {
+    width: 75vw;
+    filter: opacity(.3);
+}
+
+footer {
+    margin: 25px 0 0 0;
+}
+
+.footer-content {
+    width: 75vw;
+    height: 15vh;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: inherit;
+}
+
+.footerLeft ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footerRight {
+    display: flex;
+    gap: 20px;
+}
+
+.footerLogo {
+    width: 20px;
+    height: 20px;
+
+    background-size: contain;
+}
+
+.facebook_favicons {
+    background-image: url(../assets/icons/logo-de-lapplication-facebook.png);
+}
+
+.twitter_favicons {
+    background-image: url(../assets/icons/signe-twitter.png);
+
+}
+
+.linkedin_favicons {
+    background-image: url(../assets/icons/logo-linkedin.png);
 }
