@@ -301,7 +301,7 @@ nav {
     font-size: 2.3em;
 } 
 
-.card li {
+li {
     line-height: 1.8em;
 }
 
@@ -401,6 +401,99 @@ nav {
     background-color: #fff;
     color: #FF7235;
     
+    border: none;
+    border-radius: 8px;
+}
+
+.article-5 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.article-5-content {
+    width: 75vw;
+    height: 100%;
+
+    margin: 85px auto 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-5-content .xPense {
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+    background-color: #FF7235;
+    margin-right: 10px;
+}
+
+.article-5-content .xPense-logo {
+    color: #fff;
+    font-size: 14px;
+
+    height: 100%;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-20%);
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.article-5-content h4 {
+    margin: 0 0 40px 0;
+}
+
+.article-5-content a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.article-5-content a:visited {
+    color: inherit;
+}
+
+.newsLetter-form p:first-of-type {
+    margin-bottom: 15px;
+}
+
+.newsLetter-form p:last-of-type {
+    margin-top: 15px;
+}
+
+.email-form {
+    width: 350px;
+    height: 60px;
+
+    border: 1px solid #000000;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+}
+
+.email-form input:first-of-type {
+    width: 210px;
+    
+    line-height: 2.5em;
+
+    margin-left: 15px;
+    margin-right: 5px;
+
+    border: none;
+    outline: none;
+}
+
+.email-form input:last-of-type {
+    width: 100px;
+    height: 45px;
+
+    color: #FFF;
+    background-color: #FF7235;
+
     border: none;
     border-radius: 8px;
 }
