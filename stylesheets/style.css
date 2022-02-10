@@ -2,7 +2,6 @@
 header {
     width: 100vw;
     height: 80vh;
-
     display: flex;
     flex-direction: column;
 }
@@ -11,9 +10,7 @@ header {
 nav {
     width: 75vw;
     margin: 15px auto 0 auto;
-
     color: #6C6C71;
-
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +18,6 @@ nav {
 .navLeft {
     width: auto;
     height: 100%;
-    
     display: flex;
     align-items: center;
 }
@@ -29,7 +25,6 @@ nav {
 .navLogo {
     width: 35px;
     height: 35px;
-
     border-radius: 50%;
     background-color: #FF7235;
     margin-right: 10px
@@ -38,13 +33,10 @@ nav {
 .navLogo p {
     color: #fff;
     font-size: 14px;
-
     height: 100%;
-
     position: relative;
     top: 50%;
     transform: translateY(-20%);
-
     text-align: center;
     text-transform: uppercase;
 }
@@ -52,7 +44,6 @@ nav {
 .navLinks ul {
     width: 400px;
     height: 100%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,9 +69,7 @@ nav {
 .header-container {
     width: 75vw;
     max-height: 450px;
-
     margin: auto auto;
-
     display: flex;
 }
 
@@ -92,7 +81,6 @@ nav {
 .headerContent h1 {
     font-size: 4.5em;
     font-weight: bold;
-
     margin-bottom: 30px;
 }
 
@@ -106,17 +94,14 @@ nav {
 
 .headerLeft p {
     padding-left: 10px;
-
     margin: auto 0;
 }
 
 .headerLeftButton {
     width: 180px;
     height: 55px;
-
     border: none;
     border-radius: 8px;
-
     color: #FFF;
     background-color: #FF7235;
 }
@@ -124,7 +109,6 @@ nav {
 .headerImage {
     width: 50%;
     height: 100%;
-
     background: url(../assets/images/Illustration.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -142,7 +126,6 @@ nav {
     height: 80%;
     padding-top: 60px;
     background-color: #FF7235;
-    
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -151,14 +134,11 @@ nav {
 .article-1-img {
     width: 1110px;
     height: 625px;
-
     margin: 0 auto;
-
     background-image: url(../assets/images/Image.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
     transform: scale(1);
 }
 
@@ -172,10 +152,8 @@ nav {
     width: 100%;
     height: auto;
     padding-top: 55px;
-
     display: flex;
     justify-content: space-between;
-
     filter: grayscale(1);
 }
 
@@ -218,16 +196,13 @@ nav {
 .article-2-container {
     width: 75vw;
     height: 500px;
-
     margin: 0 auto;
-
     display: flex;
 }
 
 .article-2-left {
     width: 50%;
     height: auto;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -240,7 +215,6 @@ nav {
 .article-2-img {
     width: 50%;
     height: 100%;
-
     background-image: url(../assets/images/Illustrator-1.svg);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -251,7 +225,6 @@ nav {
 .article-3 {
     width: 100vw;
     height: 100vh;
-
     background-color: #FEFEFE;
 }
 
@@ -264,7 +237,6 @@ nav {
 .card-container {
     width: 75vw;
     max-height: 520px;
-
     margin: 90px auto 0 auto;
     gap: 25px;
     display: flex;
@@ -274,13 +246,10 @@ nav {
 .card {
     width: 33.3333%;
     height: 520px;
-
     padding: 0 40px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
     border: 1px solid #80808021;
     border-radius: 12px;
 }
@@ -308,15 +277,11 @@ li {
 .card .check {
     width: 20px;
     height: 15px;
-
     padding-right: 4px;
-
     display: inline-block;
-
     background-image: url(../assets/icons/cocher.png);
     background-size: contain;
     background-repeat: no-repeat;
-    
     filter: opacity(.4);
 }
 
@@ -342,10 +307,8 @@ li {
 .card button {
     width: 140px;
     height: 50px;
-
     background-color: inherit;
     color: #FF7235;
-
     border: 1px solid #FF7235;
     border-radius: 8px;
 }
@@ -358,21 +321,17 @@ li {
 .article-4 {
     width: 100vw;
     height: 90vh;
-
     margin: 70px 0 0 0;
-
     background-color: #FF7235;
 }
 
 .article-4-content {
     width: 100%;
     height: 100%;
-
     background-image: url(../assets/images/Illustrator.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top 250px left;
-
     transform: scale(.95);
 }
 
@@ -381,7 +340,6 @@ li {
     font-size: 3.5em;
     font-weight: bold;
     text-align: center;
-
     padding: 110px 0 40px 0;
 }
 
@@ -394,13 +352,10 @@ li {
 .article-4-content button {
     width: 200px;
     height: 60px;
-
     margin: 0 auto;
     display: block;
-
     background-color: #fff;
     color: #FF7235;
-    
     border: none;
     border-radius: 8px;
 }
@@ -413,9 +368,7 @@ li {
 .article-5-content {
     width: 75vw;
     height: 100%;
-
     margin: 85px auto 0 auto;
-
     display: flex;
     justify-content: space-between;
 }
@@ -428,7 +381,6 @@ li {
 .article-5-content .xPense-logo {
     width: 35px;
     height: 35px;
-
     border-radius: 50%;
     background-color: #FF7235;
     margin-right: 10px;
@@ -437,13 +389,10 @@ li {
 .article-5-content .xPense-logo .logoX {
     color: #FFF;
     font-size: 14px;
-
     height: 100%;
-
     position: relative;
     top: 50%;
     transform: translateY(-20%);
-
     text-align: center;
     text-transform: uppercase;
 }
@@ -476,22 +425,17 @@ li {
 .email-form {
     width: 350px;
     height: 60px;
-
     border: 1px solid #000000;
     border-radius: 8px;
-
     display: flex;
     align-items: center;
 }
 
 .email-form input:first-of-type {
     width: 210px;
-    
     line-height: 2.5em;
-
     margin-left: 15px;
     margin-right: 5px;
-
     border: none;
     outline: none;
 }
@@ -499,10 +443,8 @@ li {
 .email-form input:last-of-type {
     width: 100px;
     height: 45px;
-
     color: #FFF;
     background-color: #FF7235;
-
     border: none;
     border-radius: 8px;
 }
@@ -519,9 +461,7 @@ footer {
 .footer-content {
     width: 75vw;
     height: 15vh;
-
     margin: 0 auto;
-
     display: flex;
     justify-content: space-between;
 }
@@ -547,7 +487,6 @@ footer a:visited {
 .footerLogo {
     width: 20px;
     height: 20px;
-
     background-size: contain;
 }
 
@@ -557,7 +496,6 @@ footer a:visited {
 
 .twitter_favicons {
     background-image: url(../assets/icons/signe-twitter.png);
-
 }
 
 .linkedin_favicons {
