@@ -421,6 +421,11 @@ li {
 }
 
 .article-5-content .xPense {
+    width: auto;
+    display: flex;
+}
+
+.article-5-content .xPense-logo {
     width: 35px;
     height: 35px;
 
@@ -429,8 +434,8 @@ li {
     margin-right: 10px;
 }
 
-.article-5-content .xPense-logo {
-    color: #fff;
+.article-5-content .xPense-logo .logoX {
+    color: #FFF;
     font-size: 14px;
 
     height: 100%;
@@ -441,6 +446,10 @@ li {
 
     text-align: center;
     text-transform: uppercase;
+}
+
+.article-5-content .xPense .logoPenseText {
+    padding-top: 5px;    
 }
 
 .article-5-content h4 {
