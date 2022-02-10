@@ -489,15 +489,3 @@ footer a:visited {
     height: 20px;
     background-size: contain;
 }
-
-.facebook_favicons {
-    background-image: url(../assets/icons/logo-de-lapplication-facebook.png);
-}
-
-.twitter_favicons {
-    background-image: url(../assets/icons/signe-twitter.png);
-}
-
-.linkedin_favicons {
-    background-image: url(../assets/icons/logo-linkedin.png);
-}
